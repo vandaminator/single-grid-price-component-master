@@ -55,6 +55,11 @@ html {
 
   .bottom {
     display: flex;
+    height: 50%;
+  }
+
+  .top {
+    height: 50%;
   }
 
   .bottom-item {
