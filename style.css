@@ -63,6 +63,31 @@ html {
 
   .bottom-item {
     flex-basis: 50%;
-    height: 200px;
+    height: 290px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 950px 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: ". a-m ." ". a-f .";
+  }
+
+  main {
+    grid-area: a-m;
+  }
+
+  footer {
+    grid-area: a-f;
+  }
+
+  .bottom-item {
+    height: auto;
+  }
+
+  .container {
+    height: 460px;
   }
 }
