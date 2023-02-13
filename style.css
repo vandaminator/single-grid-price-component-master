@@ -110,6 +110,10 @@ button {
   color: white;
 }
 
+button:hover {
+  opacity: 0.8;
+}
+
 @media (min-width: 375px) {
   .card {
     display: flex;
