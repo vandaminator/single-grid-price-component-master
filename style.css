@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  border: 1px solid green;
+  padding: 30px 15px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.top {
+  border: 1px solid blue;
+  height: 30%;
+  width: 100%;
+}
+
+.bottom {
+  border: 1px solid yellow;
+  height: 70%;
+  width: 100%;
+}
+
+.bottom-item {
+  height: 50%;
+}
+
+.bottom-left {
+  border: 1px solid purple;
+}
+
+.bottom-right {
+  border: 1px solid black;
+}
+
+@media (min-width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .bottom-item {
+    flex-basis: 50%;
+    height: 100%;
+  }
+}
