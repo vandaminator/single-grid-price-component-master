@@ -12,6 +12,12 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Single Price Grid Component</title>
 
@@ -30,8 +36,8 @@
     <main class="container">
       <div class="card">
         <div class="top">
-          <h3>Join our community</h3>
-          <h4>30-day, hassle-free money back guarantee</h4>
+          <h3 class="community">Join our community</h3>
+          <p class="money-back">30-day, hassle-free money back guarantee</p>
           <p>
             Gain access to our full library of tutorials along with expert code
             reviews. Perfect for any developers who are serious about honing
@@ -40,13 +46,16 @@
         </div>
         <div class="bottom">
           <div class="bottom-left bottom-item">
-            <p>Monthly Subscription</p>
-            <p>&dollar;29 per month</p>
+            <p class="weights">Monthly Subscription</p>
+            <div class="amount-per">
+              <p class="amount">&dollar;29</p>
+              <p class="per">per month</p>
+            </div>
             <p>Full access for less than &dollar;1 a day</p>
-            <button>Sign Up</button>
+            <button><span class="weights">Sign Up</span></button>
           </div>
           <div class="bottom-right bottom-item">
-            <p>Why Us</p>
+            <p class="weights why">Why Us</p>
             <ul>
               <li>Tutorials by industry experts</li>
               <li>Peer &amp; expert code review</li>
@@ -65,7 +74,8 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https//instagram.com/master_p_24/">@Phomolo Ntokoane</a>.
       </p>
     </footer>
   </body>
